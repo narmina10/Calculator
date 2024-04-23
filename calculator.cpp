@@ -90,7 +90,7 @@ void Calculator::calculate() {
         result = operand1 * operand2;
     }
     else if (operation == "Хⁿ") {
-        result = (operand1, operand2);
+        result = pow(operand1, operand2);
     }
     else if (operation == "√") {
         result = sqrt(operand1);
